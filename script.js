@@ -922,7 +922,7 @@ function runNextMechanic() {
     if (mechanic === fireMechanic) {
         removeRectangle();
         removeRectangle();
-        showIcon({ x: 200, y: 50 }, 'img/fire-p8s.png');
+        showIcon({ x: 200, y: 10 }, 'img/fire-p8s.png');
         showRectangle({ x: 0, y: 200, width: 25, height: 170 });
 
         lastRectangleIndex = selectNextRectangleIndex(lastRectangleIndex);
@@ -935,7 +935,7 @@ function runNextMechanic() {
     if (mechanic === iceMechanic) {
         removeRectangle();
         removeRectangle();
-        showIcon({ x: 200, y: 50 }, 'img/ice-p8s.png');
+        showIcon({ x: 200, y: 10 }, 'img/ice-p8s.png');
         showRectangle({ x: 0, y: 200, width: 25, height: 170 });
 
         lastRectangleIndex = selectNextRectangleIndex(lastRectangleIndex);
