@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natural Alignment Simulator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Natural Alignment Simulator</h1>
+
+    <!-- Role Selection -->
+    <div id="roles">
+        <button class="role-button" onclick="selectRole('MT')">MT</button>
+        <button class="role-button" onclick="selectRole('OT')">OT</button>
+        <button class="role-button" onclick="selectRole('H1')">H1</button>
+        <button class="role-button" onclick="selectRole('H2')">H2</button>
+        <button class="role-button" onclick="selectRole('M1')">M1</button>
+        <button class="role-button" onclick="selectRole('M2')">M2</button>
+        <button class="role-button" onclick="selectRole('R1')">R1</button>
+        <button class="role-button" onclick="selectRole('R2')">R2</button>
+    </div>
+
+    <!-- Arena -->
+    <div id="arena">
+        <div class="player" id="MT">MT</div>
+        <div class="player" id="OT">OT</div>
+        <div class="player" id="H1">H1</div>
+        <div class="player" id="H2">H2</div>
+        <div class="player" id="M1">M1</div>
+        <div class="player" id="M2">M2</div>
+        <div class="player" id="R1">R1</div>
+        <div class="player" id="R2">R2</div>
+    </div>
+    
+
+    <!-- Feedback -->
+    <div id="feedback-container">
+        <p id="feedback">Select your role to begin!</p>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Inspired by <a href="https://cupnoodle.moe/" target="_blank">CupNoodle</a>. Visit her page for more amazing content!</p>
+        <p>Additional guides:</p>
+        <ul>
+            <li><a href="https://www.youtube.com/watch?v=NUSmXzCi6SU" target="_blank">YouTube Guide P8S part 2</a></li>
+            <li><a href="https://ff14.toolboxgaming.space/?id=350473109343661&preview=1#6" target="_blank">Toolbox Gaming Guide</a></li>
+        </ul>
+    </footer>
+
+    <script src="helpers.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
