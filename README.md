@@ -11,7 +11,7 @@
 
 ## Demo
 
-Experience the simulator [here](https://github.com/Frixon21/natural-alignment-simulator).
+Experience the simulator [here](https://frixon21.github.io/natural-alignment-simulator/).
 
 ## Installation
 
